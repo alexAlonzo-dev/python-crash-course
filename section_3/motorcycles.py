@@ -18,3 +18,10 @@ print(f"Popped value: {popped_motorcycle}")
 print(motorcycles)
 motorcycles.remove('delete me')
 print(motorcycles)
+
+
+print(f"\nunsort motorcycles {motorcycles}")
+motorcycles.sort()
+print(f"Sorted motorcycles: {motorcycles}")
+motorcycles.sort(reverse=True)
+print(f"Reverse Sorted motorcycles: {motorcycles}")
