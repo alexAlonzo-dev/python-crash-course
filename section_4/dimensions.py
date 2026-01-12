@@ -1,3 +1,3 @@
-dimencions = (25, 35)
-print(dimencions[0])
-print(dimencions[1])
+dimensions = (25, 35)
+print(dimensions[0])
+print(dimensions[1])
